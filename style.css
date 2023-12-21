@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
+        :root {
+            --text-color: rgb(140, 140, 140);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 4px 0px;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            font-family: "Segoe UI";
+            font-size: 16px;
+
+        }
+
+        .img {
+            width: 175px;
+            height: 56px;
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+       .hover:hover {
+            color: var(--text-color);
+        }
+
+        .right ul li span {
+            padding: 0px 9px;
+
+        }
+
+        h1 {
+            font-weight: lighter;
+            font-size: 50px;
+        }
+
+        .cont2 {
+            justify-content: center;
+            padding: 0px;
+        }
+
+        .cont3 {
+            font-weight: lighter;
+            font-size: 25px;
+            text-align: center;
+            padding: 25px 200px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .cont1 {
+            display: flex;
+            justify-content: center;
+            padding: 50px 50px 0px 50px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .padd {
+            padding: 5px 20px;
+        }
+
+        .mainbtn {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .download {
+            padding: 15px 20PX;
+            color: white;
+            background-color: rgb(39, 171, 204);
+            font-family: 'Poppins', sans-serif;
+            border: none;
+            border-radius: 7px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .sec img {
+            height: 57px;
+            width: 57px;
+
+        }
+
+        .sec {
+            gap: 12px;
+            display: flex;
+
+            position: absolute;
+            left: 203px;
+
+            padding: 55px 0px 0px 45px;
+        }
+
+        /* .p{
+            gap: 0px;
+            padding: 10px;
+            margin: 0px;
+        } */
+       a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .head {
+            gap: 0px;
+            padding-top: 12px;
+            margin: 0px;
+            font-size: 29px;
+            font-weight: lighter;
+        }
+
+        h3 small {
+            font-weight: 400;
+        }
+
+        small {
+            font-size: 55%;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 120px 120px 120px;
+            gap: 30px 210px;
+            margin-right:190px;
+            margin-top: 180px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            border: 1px solid rgba(222, 206, 206, 0.258);
+            height: 165px;
+            width: 300px;
+
+            background-color: rgba(222, 206, 206, 0.145);
+
+        }
+
+        .align {
+            text-align: center;
+            padding-top: 15px;
+
+        }
+
+        .twobtn {
+            text-align: center;
+            margin: 34px;
+
+
+        }
+
+        .back {
+            color: white;
+            background-color: rgb(39, 171, 204);
+            border: none;
+            padding: 8px;
+            border-radius: 7px;
+           
+
+
+        }
+
+        .back1 {
+            color: white;
+            background-color: rgb(69, 204, 39);
+            border: none;
+            padding: 8px;
+            border-radius: 7px;
+            
+        }
+        .small{
+            text-align: center;
+            /* justify-content: center;
+            align-content: center;
+            align-items: center; */
+            padding-left: 125px;
+            margin-top: 52px;
+            font-size: 70%;
+        }
+        .footer{
+            height: 60px;
+            border: 2px solid rgba(222, 206, 206, 0.145);
+            margin-top: 90px;
+            background-color:rgba(120, 120, 120, 0.274);
+            position: sticky;
+            top: 0px;
+            
+        }
+        .padding{
+            padding: 20px;
+            
+        }
